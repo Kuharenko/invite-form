@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  color: inherit;
+  font: inherit;
+
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  -webkit-appearance: none;
+}
+
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+.input {
+  border: 1px solid rgba(51, 51, 51, 0.16);
+  border-radius: 6px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  height: 48px;
+  /* identical to box height, or 150% */
+  padding-left: 16px;
+  color: #ACAAAD;
+}
+
+html, body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+#app {
+  font-family: 'Roboto', sans-serif;
+}
